@@ -432,6 +432,7 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.0.55f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
 "Assets/PickUp.cs"
 "Assets/playercontroller.cs"
+"Assets/ScoreManager.cs"
 "Assets/SimpleCameraFollow.cs"
 -langversion:9.0
 /deterministic
