@@ -1,12 +1,32 @@
+# === Unity ===
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
 [Bb]uild/
+[Bb]uilds/
 [Ll]ogs/
 UserSettings/
 MemoryCaptures/
+
+# === IDE / OS Files ===
 .vs/
-*.csproj
-*.sln
+.vscode/
+.idea/
 *.user
+*.userprefs
+.DS_Store
+Thumbs.db
+
+# === Unity auto-generated files ===
 *.unityproj
+*.pidb
+*.booproj
+*.svd
+
+# === Exclude crash dumps ===
+sysinfo.txt
+
+# === Keep these (DO NOT IGNORE) ===
+# ProjectSettings/
+# Packages/
+# Assets/
