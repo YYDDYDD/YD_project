@@ -98,6 +98,16 @@
       "source": "registry",
       "testable": false
     },
+    "com.unity.inputsystem@1.14.2": {
+      "name": "com.unity.inputsystem",
+      "displayName": "Input System",
+      "resolvedPath": "C:\\Users\\ilove\\OneDrive\\ドキュメント\\YD_project06\\Library\\PackageCache\\com.unity.inputsystem@be6c4fd0abf5",
+      "fingerprint": "be6c4fd0abf5b9b45f956b97294032a67f3c2f4d",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "1.14.2",
+      "source": "registry",
+      "testable": false
+    },
     "com.unity.multiplayer.center@1.0.0": {
       "name": "com.unity.multiplayer.center",
       "displayName": "Multiplayer Center",
