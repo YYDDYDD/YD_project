@@ -6,6 +6,7 @@ TagManager:
   tags:
   - tag 0Item
   - Item
+  - Goal
   layers:
   - Default
   - TransparentFX
