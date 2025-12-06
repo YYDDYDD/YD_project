@@ -25,7 +25,7 @@ public class PlayerController02 : MonoBehaviour
         velocity = new Vector3(horizontal, 0, vertical).normalized;
         rb.linearVelocity = velocity * speed; // ← 修正：linearVelocity → velocity
 
-        if(velocity.magnitude > 0.1f)
+        if(velocity.magnitude > 0.5f)
         {
             anim.SetBool("walking", true);
         }
