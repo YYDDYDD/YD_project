@@ -61,10 +61,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\ScoreManager.cs" />
+    <Compile Include="Assets\SticKTo_Goal.cs" />
     <Compile Include="Assets\scripts\StickTo.cs" />
+    <Compile Include="Assets\RandomMover.cs" />
     <Compile Include="Assets\scripts\Goal01.cs" />
+    <Compile Include="Assets\ChasePlayer.cs" />
     <Compile Include="Assets\SimpleCameraFollow.cs" />
     <Compile Include="Assets\scripts\PlayerController02.cs" />
+    <Compile Include="Assets\ChasePlayer_go.cs" />
     <Compile Include="Assets\playercontroller.cs" />
     <Compile Include="Assets\PickUp.cs" />
   </ItemGroup>
