@@ -12,7 +12,7 @@ public class SticKTo : MonoBehaviour
         // プレイヤーにくっついたら、位置を固定（オプション）
         if(isAttached && transform.parent != null)
         {
-            transform.localPosition = new Vector3(0, 0, 1); // プレイヤーの頭上に固定する例
+            transform.localPosition = new Vector3(0, 0.1f, 0.05f); // プレイヤーの頭上に固定する例
         }
     }
 
