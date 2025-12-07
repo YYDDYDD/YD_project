@@ -63,10 +63,12 @@
     <Compile Include="Assets\ChasePlayer.cs" />
     <Compile Include="Assets\SimpleCameraFollow.cs" />
     <Compile Include="Assets\scripts\PlayerController02.cs" />
+    <Compile Include="Assets\MoveToPickUpAndGoal.cs" />
     <Compile Include="Assets\ChasePlayer_go.cs" />
     <Compile Include="Assets\scripts\TitleController.cs" />
     <Compile Include="Assets\playercontroller.cs" />
     <Compile Include="Assets\PickUp.cs" />
+    <Compile Include="Assets\PickGoal.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
