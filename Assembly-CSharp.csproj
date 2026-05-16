@@ -2,7 +2,7 @@
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <!-- Generated file, do not modify, your changes will be overwritten (use AssetPostprocessor.OnGeneratedCSProject) -->
   <PropertyGroup>
-    <LangVersion>7.3</LangVersion>
+    <LangVersion>9.0</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -55,6 +55,11 @@
     <UnityVersion>6000.0.55f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.55f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
+    <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.55f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
+    <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.55f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
+  </ItemGroup>
+  <ItemGroup>
     <Compile Include="Assets\ScoreManager.cs" />
     <Compile Include="Assets\SticKTo_Goal.cs" />
     <Compile Include="Assets\scripts\StickTo.cs" />
@@ -71,6 +76,7 @@
     <Compile Include="Assets\PickGoal.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\shader\Mirror_vertex.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\shader\moon.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
@@ -595,14 +601,6 @@
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
       <HintPath>Library\PackageCache\com.unity.analytics@6cc66d58ac08\AnalyticsStandardEvents\Unity.Analytics.StandardEvents.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Android.Types">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.55f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Android.Gradle">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.55f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Gradle.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="netstandard">
