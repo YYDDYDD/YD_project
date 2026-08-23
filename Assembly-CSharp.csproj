@@ -64,6 +64,7 @@
     <Compile Include="Assets\SticKTo_Goal.cs" />
     <Compile Include="Assets\scripts\StickTo.cs" />
     <Compile Include="Assets\RandomMover.cs" />
+    <Compile Include="Assets\Scenes\screen Scenes\Screenshot.cs" />
     <Compile Include="Assets\scripts\Goal01.cs" />
     <Compile Include="Assets\ChasePlayer.cs" />
     <Compile Include="Assets\SimpleCameraFollow.cs" />
@@ -95,12 +96,15 @@
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\shader\charactor_shader_skin.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\shader\charactor_shader.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\shader\MirrorShader.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\shader\charactor_skin_shader.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
