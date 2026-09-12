@@ -7,13 +7,11 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: mat_hermena_body
-  m_Shader: {fileID: 4800000, guid: ab39d4a5d75207246b0b30beef482470, type: 3}
+  m_Name: mat_tree
+  m_Shader: {fileID: 4800000, guid: 89c3a54e87b6f4442a56e3795c54c6d3, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
-  - _NORMALMAP
-  - _TOON_SHADING_ON
+  m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -21,20 +19,20 @@ Material:
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
-  m_LockedProperties: _ReflectionInfluence _UseToonShading
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
     - _AOTex:
-        m_Texture: {fileID: 2800000, guid: e6479c0bbd299d54f80a34a7425a65db, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: 0e5ac36c6c1956340ae3fe80e3c7ca6d, type: 3}
+        m_Texture: {fileID: 2800000, guid: 1546ecaef7a279248b4ec450c4742656, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap2:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: b7a572e22dd80b64dbc41036c0fc83fb, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -54,15 +52,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionTex:
-        m_Texture: {fileID: 2800000, guid: abe5549bb5168264db925729848ea5f8, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _LightControlTex:
-        m_Texture: {fileID: 2800000, guid: bdd1ddb47d6d9f14d92d2289528c9c9b, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 47b33ff6e1843d24e986b67a841a4065, type: 3}
+        m_Texture: {fileID: 2800000, guid: 509ea9e7eb08b064b8c21cb6215c1ec8, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -70,7 +64,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicTex:
-        m_Texture: {fileID: 2800000, guid: b3747ed0d5059d647ab7698409554dbf, type: 3}
+        m_Texture: {fileID: 2800000, guid: f7f96fd22e71e604cba069500f53f7ff, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -82,11 +76,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecularTex:
-        m_Texture: {fileID: 2800000, guid: b3747ed0d5059d647ab7698409554dbf, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _ToonShadowTex:
-        m_Texture: {fileID: 2800000, guid: bdd1ddb47d6d9f14d92d2289528c9c9b, type: 3}
+        m_Texture: {fileID: 2800000, guid: 8631fadc4916e2448938fae3232fb33f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
@@ -98,32 +88,24 @@ Material:
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _EmissionIntensity: 0.14
+    - _EmissionIntensity: 1
     - _GlossMapScale: 1
-    - _Glossiness: 0.611
+    - _Glossiness: 0.5
     - _GlossyReflections: 1
-    - _LightAttenInfluence: 1
-    - _Metallic: 1
+    - _Metallic: 0
     - _Mode: 0
     - _NormalBlend: 0.5
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _ReflectionInfluence: 1
-    - _SelfShadeInfluence: 1
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
-    - _SpecularIntensity: 0.454
+    - _SpecularIntensity: 1
     - _SrcBlend: 1
-    - _ToonShadowInfluence: 1
-    - _ToonShadowSoftness: 0.5
-    - _ToonShadowStrength: 0.849
-    - _ToonShadowThreshold: 0.722
     - _UVSec: 0
     - _UseCutout: 0
-    - _UseToonShading: 1
     - _ZWrite: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

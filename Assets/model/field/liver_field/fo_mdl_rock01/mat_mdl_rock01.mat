@@ -7,13 +7,11 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: mat_hermena_body
-  m_Shader: {fileID: 4800000, guid: ab39d4a5d75207246b0b30beef482470, type: 3}
+  m_Name: mat_mdl_rock01
+  m_Shader: {fileID: 4800000, guid: 89c3a54e87b6f4442a56e3795c54c6d3, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
-  - _NORMALMAP
-  - _TOON_SHADING_ON
+  m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -21,20 +19,20 @@ Material:
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
-  m_LockedProperties: _ReflectionInfluence _UseToonShading
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
     - _AOTex:
-        m_Texture: {fileID: 2800000, guid: e6479c0bbd299d54f80a34a7425a65db, type: 3}
+        m_Texture: {fileID: 2800000, guid: 65477ca01fbf2254daed1a544b6d31f0, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: 0e5ac36c6c1956340ae3fe80e3c7ca6d, type: 3}
+        m_Texture: {fileID: 2800000, guid: 077867fdd7753d4408c035e9fa5cf7b1, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap2:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: dd4757f1dcb568e45aec70b6d8edb062, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -54,15 +52,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionTex:
-        m_Texture: {fileID: 2800000, guid: abe5549bb5168264db925729848ea5f8, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _LightControlTex:
-        m_Texture: {fileID: 2800000, guid: bdd1ddb47d6d9f14d92d2289528c9c9b, type: 3}
+        m_Texture: {fileID: 2800000, guid: a3c620da7d5876248baf9fa12a3a6f98, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 47b33ff6e1843d24e986b67a841a4065, type: 3}
+        m_Texture: {fileID: 2800000, guid: a3c620da7d5876248baf9fa12a3a6f98, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -70,7 +64,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicTex:
-        m_Texture: {fileID: 2800000, guid: b3747ed0d5059d647ab7698409554dbf, type: 3}
+        m_Texture: {fileID: 2800000, guid: 80947007112a18e4d93ab1792e652658, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -82,48 +76,36 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecularTex:
-        m_Texture: {fileID: 2800000, guid: b3747ed0d5059d647ab7698409554dbf, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _ToonShadowTex:
-        m_Texture: {fileID: 2800000, guid: bdd1ddb47d6d9f14d92d2289528c9c9b, type: 3}
+        m_Texture: {fileID: 2800000, guid: 7cbf5394913ed5640a72f50a124277d4, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
     - _AOIntensity: 1
     - _AlphaIntensity: 1
-    - _BumpScale: 2
+    - _BumpScale: 1
     - _BumpScale2: 1
-    - _Cutoff: 0.5
+    - _Cutoff: 0.435
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _EmissionIntensity: 0.14
+    - _EmissionIntensity: 0.6
     - _GlossMapScale: 1
-    - _Glossiness: 0.611
+    - _Glossiness: 0.528
     - _GlossyReflections: 1
-    - _LightAttenInfluence: 1
-    - _Metallic: 1
+    - _Metallic: 0
     - _Mode: 0
     - _NormalBlend: 0.5
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _ReflectionInfluence: 1
-    - _SelfShadeInfluence: 1
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
-    - _SpecularIntensity: 0.454
+    - _SpecularIntensity: 1
     - _SrcBlend: 1
-    - _ToonShadowInfluence: 1
-    - _ToonShadowSoftness: 0.5
-    - _ToonShadowStrength: 0.849
-    - _ToonShadowThreshold: 0.722
     - _UVSec: 0
     - _UseCutout: 0
-    - _UseToonShading: 1
     - _ZWrite: 1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0.3584906, g: 0.3584906, b: 0.3584906, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
